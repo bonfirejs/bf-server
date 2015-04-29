@@ -1,7 +1,7 @@
 {
   "name": "bf-server",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -38,7 +38,9 @@
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0",
-    "express-pouchdb": "^0.14.0"
+    "express": "^4.12.3",
+    "express-pouchdb": "^0.14.0",
+    "pouchdb": "^3.4.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
